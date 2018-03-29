@@ -5,5 +5,11 @@
   "main": "dist/seoassistant.esm.js",
   "repository": "git@github.com:seoassistant/seoassistant.git",
   "author": "Jota Teles <josetelesmaciel@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "node utils/build.js"
+  },
+  "devDependencies": {
+    "webpack-cli": "2.0.13"
+  }
 }
