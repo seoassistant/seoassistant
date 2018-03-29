@@ -1,0 +1,9 @@
+{
+  "name": "seoassistant",
+  "version": "0.1.0",
+  "description": "SEOAssistant is a javascript module built to test pages SEO.",
+  "main": "dist/seoassistant.esm.js",
+  "repository": "git@github.com:seoassistant/seoassistant.git",
+  "author": "Jota Teles <josetelesmaciel@gmail.com>",
+  "license": "MIT"
+}
