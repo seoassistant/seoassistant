@@ -1,5 +1,5 @@
 const defaultElements = [{
-    extract: (dom) => Array.prototype.map.call(dom.querySelectorAll("title") || [], title => title.innerText),
+    extract: (dom) => Array.from(dom.querySelectorAll("title") || []).map(title => title.innerText),
     name: "Page Title",
     specs: [{
         test: (extracted) => extracted.length === 1,
